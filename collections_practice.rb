@@ -23,7 +23,7 @@ end
 
 def kesha_maker(words)
   kesha_array = []
-  words.each_with_index {|n, i| n(i[2]).sub("$")}
+  words.each_with_index {|name, i| name(i[2]).sub("$")}
   
 end 
 
