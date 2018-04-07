@@ -22,7 +22,8 @@ def reverse_array(integers)
 end
 
 def kesha_maker(words)
-  words.each {|n| n[2].sub("$")}
+  kesha_array = []
+  words.each.with.index {|n, i| n(i[2]).sub("$")}
   
 end 
 
